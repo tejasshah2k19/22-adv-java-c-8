@@ -1,0 +1,9 @@
+servlet 
+
+1) class extends HttpServlet 
+2) override service 
+3) map your servlet - web.xml or annotation 
+
+
+
+input---process---output
