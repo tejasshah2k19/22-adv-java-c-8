@@ -18,10 +18,21 @@
 		<servlet-name>SaveUserServlet</servlet-name>
 		<servlet-class>SaveUserServlet</servlet-class>
 	</servlet>
-	
+
 	<servlet-mapping>
 		<servlet-name>SaveUserServlet</servlet-name>
-		<url-pattern>/saveuser</url-pattern> 
+		<url-pattern>/saveuser</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>CalcServlet</servlet-name>
+		<servlet-class>CalcServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>CalcServlet</servlet-name>
+		<url-pattern>/CalcServlet</url-pattern>
 	</servlet-mapping>
 
 </web-app>
