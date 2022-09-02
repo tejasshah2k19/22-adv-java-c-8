@@ -14,22 +14,52 @@ public class SaveUserServlet extends HttpServlet {
 		String email = request.getParameter("email");
 		String pwd = request.getParameter("password");
 
-		System.out.println(firstName);
-		System.out.println(email);
-		System.out.println(pwd);
-
-		try {
-			response.setContentType("text/html");// server send response as HTML
-			PrintWriter out = response.getWriter(); // print writer --> server --> client --> response
-			out.print("<html><body>");
-			out.println("<br>FirstName : " + firstName);
-			out.print("<br>Email : " + email);
-			out.print("<br>password : " + pwd);
-			out.print("</body></html>");
-		} catch (IOException e) {
-			System.out.println("IO EXCEPTION");
+		boolean isError = false;
+		String error = "";
+		if (firstName == null || firstName.trim().length() == 0) {
+			error = error + "<br>Please Enter FirstName";
+			isError = true;
 		}
 
+		if (email == null || email.trim().length() == 0) {
+			error = error + "<br>Please Enter Email";
+			isError = true;
+		} else if (email.endsWith("@gmail.com") == false  || email.trim().length() <= 12) {
+			error = error + "<br>Please Enter Valid Email";
+			isError = true;
+		}
+
+		if (pwd == null || pwd.trim().length() == 0) {
+			error = error + "<br>Please Enter Password";
+			isError = true;
+		}
+
+		if (isError == true) {
+
+			try {
+				response.setContentType("text/html");// server send response as HTML
+				PrintWriter out = response.getWriter(); // print writer --> server --> client --> response
+				out.print("<html><body>");
+				out.print(error);
+				out.print("</body></html>");
+			} catch (IOException e) {
+				System.out.println("IO EXCEPTION");
+			}
+
+		} else {
+
+			try {
+				response.setContentType("text/html");// server send response as HTML
+				PrintWriter out = response.getWriter(); // print writer --> server --> client --> response
+				out.print("<html><body>");
+				out.println("<br>FirstName : " + firstName);
+				out.print("<br>Email : " + email);
+				out.print("<br>password : " + pwd);
+				out.print("</body></html>");
+			} catch (IOException e) {
+				System.out.println("IO EXCEPTION");
+			}
+		}
 	}
 
 }
