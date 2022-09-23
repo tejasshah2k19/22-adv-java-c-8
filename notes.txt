@@ -7,3 +7,13 @@ servlet
 
 
 input---process---output
+
+
+
+jsp : java server pages / java servlet pages 
+
+jsp => html + java 
+
+<% %> scriptlet -> java logic 
+<%=  %> expression -> print 
+		

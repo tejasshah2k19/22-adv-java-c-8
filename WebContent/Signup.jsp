@@ -1,5 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +21,7 @@
 			<div class="col-md-4">
 				<h2>Signup Form</h2>
 
-				<form class="form-horizontal" action="saveuser" method="post">
+				<form class="form-horizontal" action="SignupServlet" method="post">
 					<div class="form-group">
 						<label>FirstName</label> <input type="text"
 							placeholder="first name" name="firstName" class="form-control" />
@@ -32,40 +34,11 @@
 						<label>Password</label> <input type="text" name="password"
 							placeholder="password" class="form-control" />
 					</div>
-					
-					
-					<div class="form-group">
-					   Gender 
-					   : Male <input type="radio" name="gender" value="male"/>
-					   Female<input type="radio" name="gender" value="female"/>
-					   
-					</div>
-
-					<div class="form-group">
-					    Country : 
-					    <select name="country" class="form-control">
-					    	<option value="-1">Select Country</option>
-					        <option value="India">India</option>
-					        <option value="Usa">Usa</option>
-					        <option value="Canada">Canada</option>
-					        
-					    </select>
-					    
-					</div>
-					
-					
-					<div class="form-group">
-					Hobby
-					   : Whatsapp <input type="checkbox" name="hobby" value="whatsapp"/>
-					   Facebook<input type="checkbox" name="hobby" value="facebook"/>
-					   
-					</div>
 
 					<button type="submit" class="btn btn-primary">Signup</button>
 				</form>
 			</div>
 		</div>
 	</div>
-
 </body>
 </html>
