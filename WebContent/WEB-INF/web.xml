@@ -57,5 +57,26 @@
 		<url-pattern>/LoginServlet</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>FSignupServlet</servlet-name>
+		<servlet-class>FSignupServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FSignupServlet</servlet-name>
+		<url-pattern>/FSignupServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+	<filter>
+		<filter-name>SignupFilter</filter-name>
+		<filter-class>com.filter.SignupFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>SignupFilter</filter-name>
+		<servlet-name>FSignupServlet</servlet-name>
+	</filter-mapping>
 
 </web-app>

@@ -52,17 +52,23 @@ public class Validator {
 		}
 
 		return cnt;
-
+		//9826565656 
+		
 	}
+	// ?
+	// x -> y chat -> mb price
+	// x -> y online -> count online -> minute ->
+
+	// api -> business -> marketing ->
 
 	public static void main(String[] args) {
 		System.out.println(Validator.countDigit("r51ty6ui8oi9k"));
-		System.out.println(Validator.countStrength("AdmIn@12345"));//4
-		System.out.println(Validator.countStrength("admin@12345"));//3 
-		System.out.println(Validator.countStrength("admin12345"));//2 
-		
-		
-	}
+		System.out.println(Validator.countStrength("AdmIn@12345"));// 4
+		System.out.println(Validator.countStrength("admin@12345"));// 3
+		System.out.println(Validator.countStrength("admin12345"));// 2
 
+	}
+	// key -> bcrypt -> hi -> mju754esdfyhn ml0987ytredrtyhb nmlp0o8iy6reser567uj
+	// -> hi ->kio987656tghjn mkop09uyt54redfgyujmkop098yt67
 	// ro1ya3l9
 }
