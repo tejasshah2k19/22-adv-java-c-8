@@ -1,4 +1,5 @@
- <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
@@ -25,14 +26,15 @@
 					<div class="form-group">
 						<label>FirstName</label> <input type="text"
 							placeholder="first name" name="firstName" class="form-control" />
+						${firstNameError }
 					</div>
 					<div class="form-group">
 						<label>Email</label> <input type="text" name="email"
-							placeholder="email" class="form-control" />
+							placeholder="email" class="form-control" /> ${emailError}
 					</div>
 					<div class="form-group">
 						<label>Password</label> <input type="text" name="password"
-							placeholder="password" class="form-control" />
+							placeholder="password" class="form-control" /> ${passwordError }
 					</div>
 
 					<button type="submit" class="btn btn-primary">Signup</button>
