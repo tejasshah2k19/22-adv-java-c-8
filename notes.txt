@@ -17,3 +17,35 @@ jsp => html + java
 <% %> scriptlet -> java logic 
 <%=  %> expression -> print 
 		
+		
+-----------------------------------------------------------
+
+
+
+browser -> webapp -> access -> 
+
+request --> information -> server 
+login signup -> data -> submit-> server->
+	data 
+	info [ request header ] 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
