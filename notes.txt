@@ -29,7 +29,13 @@ login signup -> data -> submit-> server->
 	data 
 	info [ request header ] 
 	
-
+-----------------------------------------------------------
+RequestHeaders [ neel s ] 
+ hidden ->  client -> server 
+-----------------------------------------------------------
+ResponseHeader  
+ hidden -> server -> client 
+-----------------------------------------------------------
 
 
 
