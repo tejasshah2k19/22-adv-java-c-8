@@ -20,6 +20,8 @@ public class SaveCookieServlet extends HttpServlet {
 		
 		Cookie c = new Cookie(cname, cvalue);
 		response.addCookie(c);
+		
+		response.sendRedirect("ListCookies.jsp");
 
 		
 	}
