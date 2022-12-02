@@ -46,8 +46,35 @@ y->cookie->55555555->iphone 14 pro black->close ->
 n->cookie->77777777->iphone 14 pro gold-> close ->
 t->cookie->99999999->note 11 pro+-> close -> 
 
+-----------------------------------------------------------
+
+mysql -> jdbc -> 
+
+1) download driver class
+2) paste jar file in lib folder 
+3) link jar from java build path -> add jar -> 
+4) create -> util folder -> DbConnection class 
+5) if you have database then ignore step 5.1 otherwise follow 5.1 
+	5.1)
+		how to create database in mysql ?
+
+		press start -> mysql -> cmd line -> root -> 
+		create database advjava8;
+
+6) steps -> code for db connection 
 
 
+
+how to create table? 
+loggedIn into Mysql and then follow below command, 
+use advjava8;
+
+create table users (
+	userId integer primary key auto_increment, 
+	firstName varchar(30),
+	email varchar(30),
+	password varchar(30)
+);
 
 
 
