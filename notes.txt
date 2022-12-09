@@ -78,6 +78,13 @@ create table users (
 
 
 
+---------------------------------
+
+to execute in db we need PreparedStatment or Statement 
+we can create instance of above using Connection 
+
+
+
 
 
 

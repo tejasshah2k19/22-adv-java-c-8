@@ -2,6 +2,7 @@ package com.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 
 public class DbConnection {
 
@@ -19,6 +20,15 @@ public class DbConnection {
 			Connection con = DriverManager.getConnection(url, userName, password);
 			if (con != null) {
 				System.out.println("DbConnected");
+				PreparedStatement pstmt = con
+						.prepareStatement("insert into users (firstName,email,password) values (?,?,?)");
+
+				pstmt.setString(1, "ram");
+				pstmt.setString(2, "ram@gmail.com");
+				pstmt.setString(3, "ram123");
+
+				pstmt.executeUpdate();// run query
+
 			} else {
 				System.out.println("Db NOT connected");
 			}
