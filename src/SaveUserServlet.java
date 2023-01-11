@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import util.Validator;
+import com.util.Validator;
 
 public class SaveUserServlet extends HttpServlet {
 
@@ -25,7 +25,7 @@ public class SaveUserServlet extends HttpServlet {
 		if (firstName == null || firstName.trim().length() == 0) {
 			error = error + "<br>Please Enter FirstName";
 			isError = true;
-		} else if (Validator.validAlpha(firstName) == false) {
+		} else if (com.util.Validator.validAlpha(firstName) == false) {
 			error = error + "<br>Please Enter Valid  FirstName";
 			isError = true;
 

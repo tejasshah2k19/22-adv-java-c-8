@@ -85,6 +85,61 @@ we can create instance of above using Connection
 
 
 
+sunday 
+	7 yoga 
+	9 mm party 
+	
+22nd Jan
+		7 pm party 
+		
+uncle -> 5000 cash 
+		
+31st dec -> credit card bill 
+
+
+1) user management 
+
+	1) Signup
+		Signup.jsp
+
+	2) Login
+	3) forgetpassword 
+	
+
+
+-----------------------------------
+
+client --> server --> parameter  [ form hyperlink ] 
+
+server --> client -> request cookie session application
+						setAttribute 
+						
+										
+
+inclusion -> reuse 
+
+Header 
+
+Footer 
+
+Home include 
+Order include  
+View 
+4
+
+
+static inclusion 
+	<%@ include file="" %>
+dynamic inclusion 
+	<jsp:include path="" /> 
+
+
+	dynamic - header [ 5 code ]
+Home.jsp 5 line code
+	static - footer [ 5 code ] 
+
+Home.jsp -> 5home+5footer = 10 line  code 
+
 
 
 
