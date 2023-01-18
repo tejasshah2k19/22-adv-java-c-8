@@ -141,6 +141,13 @@ Home.jsp 5 line code
 Home.jsp -> 5home+5footer = 10 line  code 
 
 
+------------------------------------------------------------------------
+
+1) class : logic 
+2) tld  : function 1 -- 1000  [ web.xml -> WEB-INF ]  
+3) web.xml : mapping of tld 
+4) jsp use 
+ 
 
 
 

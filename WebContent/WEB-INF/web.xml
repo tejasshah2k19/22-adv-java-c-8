@@ -75,5 +75,11 @@
 		<location>/404.jsp</location>
 	</error-page>
 
+	<jsp-config>
+		<taglib>
+			<taglib-uri>www.royal.com/em/dev/java/tejas</taglib-uri>
+			<taglib-location>WEB-INF/elfunction.tld</taglib-location>
+		</taglib>
+	</jsp-config>
 
 </web-app>
