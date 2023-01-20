@@ -81,5 +81,7 @@
 			<taglib-location>WEB-INF/elfunction.tld</taglib-location>
 		</taglib>
 	</jsp-config>
-
+	<listener>
+		<listener-class>com.listener.SessionListener</listener-class>
+	</listener>
 </web-app>

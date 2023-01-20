@@ -148,8 +148,15 @@ Home.jsp -> 5home+5footer = 10 line  code
 3) web.xml : mapping of tld 
 4) jsp use 
  
+------------------------------------------------------------------------
+listener -->listen --> events -->
+		backend 
+		
+		1) user count? -- session 
+		2) aws - nse - server start -> shutdown --> 
 
-
+1) class - logic 
+2) web.xml - 
 
 
 
