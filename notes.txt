@@ -158,6 +158,22 @@ listener -->listen --> events -->
 1) class - logic 
 2) web.xml - 
 
+-----------------------------
+jstl -> java standard tab libarary 
+
+1) jstl.jar -> link 
+2) jsp import use 
+
+1) core 
+2) xml 
+3) sql 
+4) format
+5) function 
+
+
+
+-----------------------------
+
 
 
 

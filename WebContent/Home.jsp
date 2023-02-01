@@ -9,7 +9,7 @@
 <body>
 	Welcome.........
 
-
+<br>
 	<%
 	int a = 90;
 	int b = 900;
