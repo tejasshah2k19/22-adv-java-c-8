@@ -174,8 +174,22 @@ jstl -> java standard tab libarary
 
 -----------------------------
 
+**custom tag** 
+jar add -> tomcat / lib -> jsp-api.jar 
+userdefine -> 
+
+<b> 
+
+<greet></greet>  => Good Morning , Good Noon , Good Evening
 
 
+1) class -> extends SimpleTagSupport 
+	override -> doTag -> logic 
+2) tld -> tag lib descritor 
+3) web.xml -> map tld 
+4) jsp use - >import 	
 
+
+tag -> without body without attribute 
 
 

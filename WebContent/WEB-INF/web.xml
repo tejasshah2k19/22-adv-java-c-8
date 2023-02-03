@@ -80,6 +80,10 @@
 			<taglib-uri>www.royal.com/em/dev/java/tejas</taglib-uri>
 			<taglib-location>WEB-INF/elfunction.tld</taglib-location>
 		</taglib>
+		<taglib>
+			<taglib-uri>stag</taglib-uri>
+			<taglib-location>WEB-INF/stag.tld</taglib-location>
+		</taglib>
 	</jsp-config>
 	<listener>
 		<listener-class>com.listener.SessionListener</listener-class>
