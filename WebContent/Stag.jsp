@@ -9,6 +9,9 @@
 </head>
 <body>
 
-	<t:greet />
+	<t:greet /><br>
+	
+
+	<t:sqr num="3"></t:sqr>
 </body>
 </html>

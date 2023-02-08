@@ -185,11 +185,12 @@ userdefine ->
 
 1) class -> extends SimpleTagSupport 
 	override -> doTag -> logic 
-2) tld -> tag lib descritor 
+2) tld -> tag lib descritor -> tag  
 3) web.xml -> map tld 
-4) jsp use - >import 	
+4) jsp use - >import -> <%@taglib %> 	
 
 
 tag -> without body without attribute 
 
 
+-----------------------------
